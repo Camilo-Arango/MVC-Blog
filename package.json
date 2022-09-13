@@ -1,36 +1,38 @@
 {
   "name": "mvc-tech-blog",
   "version": "1.0.0",
-  "description": "This project uses the Model-View-Controller (MVC) paradigm to create a blog-style website where developers can post articles with commentary, edit posts, and comment on other user's articles.",
+  "description": "Model-View-Controller (MVC) Tech Blog",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node server.js",
     "watch": "nodemon server.js",
     "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Camilo-Arango/MVC-Blog"
+    "url": "git+https://github.com/priyaravi23/mvc-tech-blog.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Priya Ravi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Camilo-Arango/MVC-Blog"
+    "url": "https://github.com/priyaravi23/mvc-tech-blog/issues"
   },
-  "homepage": "https://github.com/Camilo-Arango/MVC-Blog#readme",
+  "homepage": "https://github.com/priyaravi23/mvc-tech-blog#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
-    "connect-session-sequelize": "^7.0.4",
+    "bulma": "^0.9.0",
+    "connect-session-sequelize": "^6.1.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "express-handlebars": "^5.2.0",
+    "express-handlebars": "^4.0.4",
     "express-session": "^1.17.1",
-    "mysql2": "^2.2.5",
-    "sequelize": "^6.3.5"
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.4",
+    "sequelize": "^5.21.13"
   },
   "devDependencies": {
-    "nodemon": "^2.0.6"
+    "@creativebulma/bulma-divider": "^1.1.0",
+    "jest": "^26.0.1"
   }
 }
