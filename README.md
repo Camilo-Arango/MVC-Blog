@@ -18,3 +18,5 @@ This project uses the Model-View-Controller (MVC) paradigm to create a blog-styl
   * JawsDB (a Heroku add-on for hosting the MySQL database)
 
 ## Usage
+
+The app was deployed to heroku and it says that the build succeeded every time I try to upload it/host it but when visiting the app it does not render so I am unsure why this is happening. How it should be working is that 
